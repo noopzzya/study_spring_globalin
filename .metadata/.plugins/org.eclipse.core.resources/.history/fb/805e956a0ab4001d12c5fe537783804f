@@ -1,0 +1,13 @@
+package polymorphism;
+
+public class LgTV {
+
+	public void trunOn() {
+		System.out.println("LgTV --- 전원 켠다.");
+	}
+	
+	public void trunOff() {
+		System.out.println("LgTV --- 전원 끈다.");
+	}
+	
+}
