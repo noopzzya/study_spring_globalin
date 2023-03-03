@@ -1,0 +1,13 @@
+package polymorphism;
+
+public class SonySpeaker {
+
+	public void volumeUp() {
+		System.out.println("SonySpeaker --- 소리올린다");
+	}
+	
+	public void volumeDown() {
+		System.out.println("SonySpeaker --- 소리내린다");
+	}
+		
+}

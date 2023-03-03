@@ -1,0 +1,5 @@
+package com.globalin.biz.board;
+
+public class BoardServiceClient {
+
+}

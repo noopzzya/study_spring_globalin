@@ -1,0 +1,24 @@
+package com.globalin.biz.board.impl;
+
+public class BoardDAO {
+
+	// JDBC 관련 변수 선언
+	conn
+	stmt
+	rs
+	
+	// sql 명령어들
+	BOARD_INSERT="";
+	BOARD_UPDATE="";
+	BOARD_DELETE="";
+	BOARD_GET="";
+	BOARD_LIST="";
+	
+	// CRUD 메소드 구현
+	// 글 등록
+	// 글 수정
+	// 글 삭제
+	// 글 상세 조회
+	// 글 목록 조회
+	
+}

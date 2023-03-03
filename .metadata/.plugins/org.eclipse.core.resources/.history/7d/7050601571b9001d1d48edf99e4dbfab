@@ -1,0 +1,5 @@
+package com.globalin.biz.user.impl;
+
+public class UserDAO {
+
+}

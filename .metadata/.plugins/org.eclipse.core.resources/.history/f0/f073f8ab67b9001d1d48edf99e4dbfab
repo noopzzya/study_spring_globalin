@@ -1,0 +1,58 @@
+package com.globalin.biz.board.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.globalin.biz.board.BoardService;
+import com.globalin.biz.board.BoardVO;
+
+@Service("boardService")
+public class BoardServiceimpl implements BoardService {
+
+	@Autowired
+	private BoardDAO boardDAO;
+	
+	@Override
+	public void insertBoard(BoardVO vo) {
+		boardDAO.insertBoard(vo);
+	}
+
+	@Override
+	public void updateBoard(BoardVO vo) {
+		boardDAO.updateBoard(vo);
+	}
+
+	@Override
+	public void deleteBoard(BoardVO vo) {
+		boardDAO.deleteBoard(vo);
+	}
+
+	@Override
+	public BoardVO getBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return boardDAO.getBoard(vo);
+	}
+
+	@Override
+	public List<BoardVO> getBoardListBoard() {
+		// TODO Auto-generated method stub
+		return boardDAOpackage com.globalin.biz.board;
+
+import java.util.List;
+
+public interface BoardService {
+
+	// CRUD 기능의 메소드 구현
+	void insertBoard(BoardVO vo);
+	void updateBoard(BoardVO vo);
+	void deleteBoard(BoardVO vo);
+	BoardVO getBoard(BoardVO vo);
+	List<BoardVO> getBoardListBoard();
+	
+}
+;
+	}
+
+}

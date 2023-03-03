@@ -1,0 +1,14 @@
+package com.globalin.biz.user.impl;
+
+import com.globalin.biz.user.UserService;
+import com.globalin.biz.user.UserVO;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserVO getUser(UserVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.globalin.biz.board;
+
+import java.sql.Date;
+
+// VO (Value Object)
+public class BoardVO {
+
+	private int seq;
+	private String title;
+	private String writer;
+	private String content;
+	private Date regDate; // 데이터 베이스 import=sql 
+	
+	
+}
