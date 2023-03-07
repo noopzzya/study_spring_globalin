@@ -5,28 +5,36 @@ import java.util.List;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
+import com.globalin.biz.board.impl.BoardServiceImpl;
+
 public class BoardServiceClient {
 
 	public static void main(String[] args) {
+	
+		AbstractApplicationContext container = 
+				new GenericXmlApplicationContext("applicationContext.xml");
 		
-		AbstractApplicationContext container = new GenericXmlApplicationContext("applicationContext.xml");
 		
-		BoardService boardService = (BoardService)container.getBean("boardService");
-		
+		BoardService boardService =(BoardService)container.getBean("boardService");
+		//BoardServiceImpl boardService = new BoardServiceImpl();
 		// 글 등록
 		BoardVO vo = new BoardVO();
+		//vo.setSeq(0);
 		vo.setTitle("임시 제목");
 		vo.setWriter("홍길동");
-		vo.setContent("임시 내용들 입니다.");
-		boardService.insertBoard(vo);			
+		vo.setContent("임시 내용들입니다. ......");
+		//boardService.insertBoard(vo);
 		
 		// 글 목록 검색
 		List<BoardVO> boardList = boardService.getBoardList();
 		
 		for(BoardVO board : boardList) {
-			System.out.println("---->" +board.toString());
+			System.out.println("----> "+board.toString());
 		}
+		
 		container.close();
+		
+		
 	}
-	
+
 }

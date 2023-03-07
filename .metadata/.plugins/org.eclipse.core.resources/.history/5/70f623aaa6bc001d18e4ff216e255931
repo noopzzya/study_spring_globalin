@@ -1,0 +1,31 @@
+package com.globalin.biz.common;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Service;
+
+@Service // bean 어노테이션
+@Aspect // Aspect = Ponintcut + Advice
+public class LogAdvice {
+	
+	@Pointcut
+	public void allPointcut() {
+		
+	}
+	
+	public void getPointcut() {
+		
+	}
+	
+	@Before("allPointcut")
+	public void printLog(JoinPoint jp) {
+		
+		String method = jp.getSignature().getName();
+		Object[] args = jp.getArgs();
+		
+		System.out.println("[사전 처리]" +method+ "() 메소드 ARGS정보:" +args[0].toString());
+		
+	}
+}
