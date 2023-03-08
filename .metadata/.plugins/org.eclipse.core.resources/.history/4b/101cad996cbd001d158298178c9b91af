@@ -1,0 +1,7 @@
+package com.globalin.biz.board.impl;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class BoardRowMapper implements RowMapper<T> {
+
+}

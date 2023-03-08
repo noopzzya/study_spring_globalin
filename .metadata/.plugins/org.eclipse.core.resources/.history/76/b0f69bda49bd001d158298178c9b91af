@@ -1,0 +1,10 @@
+package com.globalin.biz.common;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class PointcutCommon {
+
+	
+	
+}

@@ -14,13 +14,15 @@ import com.globalin.biz.user.UserVO;
 @Aspect
 public class AfterReturningAdvice {
 
+	/*
 	@Pointcut("execution(* com.globalin.biz..*Impl.get*(..))")
     public void getPointcut() {
 		
-	}
+	}	
+	//@AfterReturning(pointcut = "getPointcut()", returning = "returnObj")
+	*/
 	
-	
-	@AfterReturning(pointcut = "getPointcut()", returning = "returnObj")
+	@AfterReturning(pointcut = "PointcutCommon.getPointcut()", returning = "returnObj")
 	public void afterLog(JoinPoint jp, Object returnObj) {
 		
 		String method = jp.getSignature().getName();
