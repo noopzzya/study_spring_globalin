@@ -19,7 +19,7 @@ public class BoardServiceClient {
 		//BoardServiceImpl boardService = new BoardServiceImpl();
 		// 글 등록
 		BoardVO vo = new BoardVO();
-		//vo.setSeq(0);
+		//vo.setSeq(100);
 		vo.setTitle("임시 제목");
 		vo.setWriter("홍길동");
 		vo.setContent("임시 내용들입니다. ......");

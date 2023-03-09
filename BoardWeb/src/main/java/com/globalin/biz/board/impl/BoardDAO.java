@@ -49,12 +49,13 @@ public class BoardDAO {
 	// 글 수정
 	public void updateBoard(BoardVO vo) {
 		System.out.println("====> JDBC로 updateBoard() 기능 처리");
+		System.out.println(vo.getContent()+" "+vo.getSeq()+" "+vo.getContent());
 		
 		try {
 			conn = JDBCUtil.getConnection();
 			stmt = conn.prepareStatement(BOARD_UPDATE);
 			stmt.setString(1, vo.getTitle());
-			stmt.setString(2, vo.getTitle());
+			stmt.setString(2, vo.getContent());
 			stmt.setInt(3, vo.getSeq());
 			stmt.executeUpdate();			
 		} catch (Exception e) {

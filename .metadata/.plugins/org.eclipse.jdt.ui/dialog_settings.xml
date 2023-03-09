@@ -71,4 +71,15 @@
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
+	<section name="nls_accessor_history">
+		<section name="0">
+			<item key="accessorName" value="Messages"/>
+			<item key="accessorPackage" value="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.globalin.view.controller"/>
+			<item key="bundleName" value="messages.properties"/>
+			<item key="bundlePackage" value="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.globalin.view.controller"/>
+		</section>
+	</section>
 </section>
