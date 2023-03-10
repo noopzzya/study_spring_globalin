@@ -20,17 +20,13 @@
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.globalin.biz.common.JDBCUtil"/>
-<fullyQualifiedTypeName name="com.globalin.biz.board.impl.BoardDAO"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
 <fullyQualifiedTypeName name="com.globalin.biz.board.BoardService"/>
-<fullyQualifiedTypeName name="com.globalin.biz.user.impl.UserDAO"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="com.globalin.biz.user.UserVO"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -43,7 +39,6 @@
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
-<fullyQualifiedTypeName name="com.globalin.biz.board.BoardVO"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.support.JdbcDaoSupport"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -52,4 +47,10 @@
 <fullyQualifiedTypeName name="org.springframework.transaction.TransactionStatus"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.TransactionDefinition"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.TransactionException"/>
+<fullyQualifiedTypeName name="com.globalin.biz.user.UserVO"/>
+<fullyQualifiedTypeName name="com.globalin.biz.user.impl.UserDAO"/>
+<fullyQualifiedTypeName name="com.globalin.biz.board.impl.BoardDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.globalin.biz.board.BoardVO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>
