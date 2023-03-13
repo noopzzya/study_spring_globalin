@@ -1,21 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<%@page import="com.globalin.biz.board.BoardVO"%>
-<%@ page import="java.util.List" %>
-
-<% 
-// 데이터베이스 연동 (MVC2 수정하면서 주석처리)
-//BoardVO vo = new BoardVO();
-//BoardDAO boardDAO = new BoardDAO();
-//List<BoardVO> boardList = boardDAO.getBoardList();
-
-// 세션 저장된 글 목록 호출
-List<BoardVO> boardList = (List)session.getAttribute("boardList");
-
-// 응답화면 구성
-
-%>
+ 
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
     
 <!DOCTYPE html>
 <html>
@@ -57,23 +43,19 @@ List<BoardVO> boardList = (List)session.getAttribute("boardList");
 		<th bgcolor="orange" width="100">조회수</th>
 	</tr>
 	
-	<%
-		for(BoardVO board : boardList){
-	%>
+	<c:forEach var="board" items="${boardList}">
 	
 	<tr>
-		<td><%=board.getSeq()%></td>
+		<td>${board.seq}</td>
 		<td align="left">
-			<a href="getBoard.do?seq=<%=board.getSeq()%>"><%=board.getTitle()%></a>
+			<a href="getBoard.do?seq=${board.seq}">${board.title}</a>
 		</td>
-		<td><%=board.getWriter()%></td>
-		<td><%=board.getRegDate()%></td>
-		<td><%=board.getCnt()%></td>		
+		<td>${board.writer}</td>
+		<td>${board.regDate}</td>
+		<td>${board.cnt}</td>		
 	</tr>
 	
-	<%
-		}
-	%>
+	</c:forEach>
 	
 </table>
 
