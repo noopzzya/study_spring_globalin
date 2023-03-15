@@ -4,21 +4,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.globalin.view.controller.Controller;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.Controller;
 
 public class LogoutController implements Controller {
-
+	
 	@Override
-	public String handlerRequest(HttpServletRequest request, HttpServletResponse response) {
-		
+	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("로그아웃 처리");
-		
-		// MVC1 logout_proc.jsp 소스 
+
+		// MVC1 logout_proc.jsp 소스
 		HttpSession session = request.getSession(); // 추가
 		session.invalidate();
 
-		return "login";
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("redirect:login.jsp");
 		
+		// 응답화면
+		return mav;
 	}
 
 }

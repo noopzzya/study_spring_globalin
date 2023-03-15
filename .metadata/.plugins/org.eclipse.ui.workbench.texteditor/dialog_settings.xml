@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package com.globalin.view.user;"/>
 			<item value="Im"/>
 			<item value="aspec"/>
 			<item value="as"/>

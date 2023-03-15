@@ -1,5 +1,0 @@
-package com.globalin.biz.common;
-
-public class AfterThrowingAdvice {
-
-}
