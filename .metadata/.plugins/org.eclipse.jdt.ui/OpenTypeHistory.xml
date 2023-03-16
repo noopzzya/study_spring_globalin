@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;polymorphism{Speaker.java[Speaker" modifiers="513" timestamp="1677721088776"/>
-<typeInfo handle="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.globalin.biz.board{BoardService.java[BoardService" modifiers="513" timestamp="1677810649754"/>
-<typeInfo handle="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.globalin.biz.user{UserService.java[UserService" modifiers="513" timestamp="1677825688363"/>
-<typeInfo handle="=BoardWeb/C:\/Users\/USER\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.2.4.RELEASE\/spring-jdbc-4.2.4.RELEASE.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-jdbc-4.2.4.RELEASE.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/4.2.4.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1678236916749"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
