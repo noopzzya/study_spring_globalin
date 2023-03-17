@@ -109,14 +109,6 @@
 
 
 
-
-
-
-
-
-
-
-
 	<!-- <bean id="userService" class="com.globalin.biz.user.impl.UserServiceImpl"> -->
 	<!-- <property name="userDAO" ref="userDAO"></property> -->
 	<!-- </bean> -->
