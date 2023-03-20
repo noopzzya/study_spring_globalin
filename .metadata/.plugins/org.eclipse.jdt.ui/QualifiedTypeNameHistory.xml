@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.globalin.biz.common.JDBCUtil"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
-<fullyQualifiedTypeName name="com.globalin.biz.board.BoardService"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="org.springframework.util.StopWatch"/>
@@ -33,7 +25,6 @@
 <fullyQualifiedTypeName name="com.globalin.view.user.LoginController"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ViewResolver"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.globalin.view.board.GetBoardListController"/>
 <fullyQualifiedTypeName name="com.globalin.view.controller.handlerMapping"/>
 <fullyQualifiedTypeName name="com.globalin.view.controller.ViewResolver"/>
@@ -46,9 +37,7 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Conditional"/>
-<fullyQualifiedTypeName name="com.globalin.biz.board.impl.BoardDAO"/>
 <fullyQualifiedTypeName name="com.globalin.biz.board.impl.BoardRowMapper"/>
-<fullyQualifiedTypeName name="com.globalin.biz.board.BoardVO"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
 <fullyQualifiedTypeName name="java.io.File"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.Reader"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="com.globalin.biz.util.SqlSessionFactoryBean"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.globalin.biz.board.impl.BoardDAO"/>
+<fullyQualifiedTypeName name="com.globalin.biz.board.BoardVO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
