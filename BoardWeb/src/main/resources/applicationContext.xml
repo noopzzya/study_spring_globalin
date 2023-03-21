@@ -40,6 +40,13 @@
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
 
+	
+	<bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+			<property name="dataSource" ref="dataSource"/>
+			<property name="configLocation" value="classpath:sql-map-config.xml"/>
+	</bean>
+	
+
 	<tx:advice id="txAdvice" transaction-manager="txManager">
 		<tx:attributes>
 			<tx:method name="get*" read-only="true"/>
@@ -52,7 +59,7 @@
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
 	</aop:config>
 
-
+	
 
 	<!-- 어노테이션 사용하기 위한 설정 -->
 	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>

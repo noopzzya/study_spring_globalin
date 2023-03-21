@@ -16,7 +16,8 @@ import com.globalin.biz.common.LogAdvice;
 public class BoardServiceImpl implements BoardService {
 	
 	@Autowired
-	private BoardDAO boardDAO=null;
+	private BoardDAOMybatis boardDAO;
+//	private BoardDAO boardDAO=null;
 //	private BoardDAOSpring boardDAO=null;
 //	private LogAdvice log;
 //	private Log4jAdvice log;
