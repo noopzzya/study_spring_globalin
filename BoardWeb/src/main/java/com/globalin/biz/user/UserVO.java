@@ -6,6 +6,7 @@ public class UserVO {
 	private String password;
 	private String name;
 	private String role;
+	
 	public String getId() {
 		return id;
 	}
@@ -33,6 +34,6 @@ public class UserVO {
 	
 	@Override
 	public String toString() {
-		return "UserdVO [id="+id+", password="+password+", name="+name+", role="+role+"]";
+		return "UserVO [id="+id+", password="+password+", name="+name+", role="+role+"]";
 	}
 }

@@ -4,7 +4,6 @@ import java.sql.Date;
 
 import org.springframework.web.multipart.MultipartFile;
 
-//VO(Value Object)
 public class BoardVO {
 	
 	private int seq;
@@ -17,12 +16,27 @@ public class BoardVO {
 	private String searchKeyword;
 	private MultipartFile uploadFile;
 	
-
-	
+	public MultipartFile getUploadFile() {
+		return uploadFile;
+	}
+	public void setUploadFile(MultipartFile uploadFile) {
+		this.uploadFile = uploadFile;
+	}
+	public String getSearchCondition() {
+		return searchCondition;
+	}
+	public void setSearchCondition(String searchCondition) {
+		this.searchCondition = searchCondition;
+	}
+	public String getSearchKeyword() {
+		return searchKeyword;
+	}
+	public void setSearchKeyword(String searchKeyword) {
+		this.searchKeyword = searchKeyword;
+	}
 	public int getSeq() {
 		return seq;
 	}
-	
 	public void setSeq(int seq) {
 		this.seq = seq;
 	}
@@ -57,33 +71,10 @@ public class BoardVO {
 		this.cnt = cnt;
 	}
 	
-	
-	public String getSearchCondition() {
-		return searchCondition;
-	}
-
-	public void setSearchCondition(String searchCondition) {
-		this.searchCondition = searchCondition;
-	}
-
-	public String getSearchKeyword() {
-		return searchKeyword;
-	}
-
-	public void setSearchKeyword(String searchKeyword) {
-		this.searchKeyword = searchKeyword;
-	}	
-
-	public MultipartFile getUploadFile() {
-		return uploadFile;
-	}
-
-	public void setUploadFile(MultipartFile uploadFile) {
-		this.uploadFile = uploadFile;
-	}
-
 	@Override
 	public String toString() {
+		
 		return "BoardVO [seq="+seq+", title="+title+", writer="+writer+", content="+content+", regDate="+regDate+", cnt="+cnt+"]";
 	}
+	
 }

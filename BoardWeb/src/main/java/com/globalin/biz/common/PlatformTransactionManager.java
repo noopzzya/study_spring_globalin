@@ -6,7 +6,7 @@ import org.springframework.transaction.TransactionStatus;
 
 public interface PlatformTransactionManager {
 	
-	TransactionStatus getTransaction(TransactionDefinition definition) throws TransactionException;
+	TransactionStatus getTranscation(TransactionDefinition definition) throws TransactionException;
 	void commit(TransactionStatus status) throws TransactionException;
 	void rollback(TransactionStatus status) throws TransactionException;
 }

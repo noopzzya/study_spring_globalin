@@ -73,7 +73,7 @@
 		<item key="patterns" value="*"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="nls_accessor_history">
 		<section name="0">
@@ -82,5 +82,8 @@
 			<item key="bundleName" value="messages.properties"/>
 			<item key="bundlePackage" value="=BoardWeb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.globalin.view.controller"/>
 		</section>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="6"/>
 	</section>
 </section>
